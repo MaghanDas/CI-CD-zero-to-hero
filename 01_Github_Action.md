@@ -173,4 +173,39 @@ Tests
 Approval
  ↓
 Deploy production
+```
+
+## From GitHub Actions to production DevOps
+```
+                     Git Push
+                        │
+                        ↓
+                     GitHub
+                        │
+                        ↓
+                 GitHub Actions
+                        │
+          ┌─────────────┴─────────────┐
+          ↓                           ↓
+       Backend                      Frontend
+        tests                        tests
+          │                           │
+          └─────────────┬─────────────┘
+                        ↓
+                   Security scan
+                        ↓
+                   Docker build
+                        ↓
+                 Docker image
+                        ↓
+                 ECR / Registry
+                        ↓
+                 Deployment
+                        ↓
+                    AWS /
+                 Kubernetes
+                        ↓
+                   Health check
+                        ↓
+                   Monitoring
 ``` 
