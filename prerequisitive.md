@@ -345,5 +345,7 @@ A runner is the machine or execution environment that actually executes the CI/C
 An artifact is the output of a build process that can be stored and subsequently deployed, such as a Docker image or compiled application.
 
 
+<img width="1290" height="591" alt="image" src="https://github.com/user-attachments/assets/d52edd75-bc89-4d4a-b9bc-e737681c056d" />
 
+<img width="1266" height="890" alt="image" src="https://github.com/user-attachments/assets/93a8a1f4-e0cb-42cd-8b62-79f73484ff29" />
 
